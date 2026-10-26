@@ -1,0 +1,31 @@
+provider_npi,provider_name,specialty,facility_name,in_network_flag
+1000000001,"Dr. Linda Williams, MD",Cardiology,St. Jude Clinic,True
+1000000002,"Dr. Linda Rodriguez, MD",Internal Medicine,Optum Health Center,True
+1000000003,"Dr. James Gonzalez, MD",Emergency Medicine,St. Jude Clinic,True
+1000000004,"Dr. Patricia Brown, MD",Orthopedics,Memorial Hospital,False
+1000000005,"Dr. Jessica Smith, MD",Family Medicine,Mercy Medical Center,True
+1000000006,"Dr. Mary Anderson, MD",Family Medicine,Regional General,False
+1000000007,"Dr. Barbara Davis, MD",Emergency Medicine,Optum Health Center,True
+1000000008,"Dr. John Hernandez, MD",Oncology,Optum Health Center,True
+1000000009,"Dr. Susan Hernandez, MD",Family Medicine,Memorial Hospital,True
+1000000010,"Dr. David Wilson, MD",Internal Medicine,St. Jude Clinic,True
+1000000011,"Dr. William Davis, MD",Internal Medicine,Memorial Hospital,True
+1000000012,"Dr. Michael Williams, MD",Orthopedics,Optum Health Center,True
+1000000013,"Dr. Patricia Williams, MD",Oncology,St. Jude Clinic,True
+1000000014,"Dr. Susan Johnson, MD",Orthopedics,Mercy Medical Center,True
+1000000015,"Dr. Joseph Jones, MD",Oncology,Mercy Medical Center,True
+1000000016,"Dr. Robert Williams, MD",Emergency Medicine,Mercy Medical Center,True
+1000000017,"Dr. Michael Wilson, MD",Internal Medicine,Memorial Hospital,True
+1000000018,"Dr. Linda Garcia, MD",Oncology,Regional General,True
+1000000019,"Dr. Elizabeth Jones, MD",Family Medicine,Optum Health Center,False
+1000000020,"Dr. Joseph Rodriguez, MD",Emergency Medicine,Regional General,True
+1000000021,"Dr. Patricia Davis, MD",Cardiology,Memorial Hospital,True
+1000000022,"Dr. James Smith, MD",Family Medicine,Memorial Hospital,True
+1000000023,"Dr. Richard Garcia, MD",Emergency Medicine,Optum Health Center,True
+1000000024,"Dr. Robert Smith, MD",Cardiology,Memorial Hospital,False
+1000000025,"Dr. John Johnson, MD",Internal Medicine,Optum Health Center,True
+1000000026,"Dr. Joseph Smith, MD",Family Medicine,Regional General,False
+1000000027,"Dr. Richard Davis, MD",Cardiology,St. Jude Clinic,False
+1000000028,"Dr. Jennifer Garcia, MD",Family Medicine,Memorial Hospital,True
+1000000029,"Dr. David Davis, MD",Family Medicine,Optum Health Center,True
+1000000030,"Dr. Elizabeth Davis, MD",Oncology,Regional General,False

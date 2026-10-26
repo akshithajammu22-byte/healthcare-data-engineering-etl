@@ -1,0 +1,43 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Spark & Delta Lake Warehouses / Checkpoints
+data/warehouse/
+data/checkpoints/
+spark-warehouse/
+*.delta/
+.checkpoint/
+metastore_db/
+derby.log
+
+# IDE & OS Files
+.vscode/
+.idea/
+.project
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Secrets & Local Environment
+*.env
+secrets.yaml
+*.key
+*.pem
+
+# Task Logs & Scratch Files
+logs/
+*.log

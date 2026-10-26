@@ -1,0 +1,11 @@
+code,description,category,is_chronic
+I10,Essential (primary) hypertension,Circulatory,True
+E11.9,Type 2 diabetes mellitus without complications,Endocrine,True
+I50.9,"Heart failure, unspecified",Circulatory,True
+J44.9,"Chronic obstructive pulmonary disease, unspecified",Respiratory,True
+M54.5,Low back pain,Musculoskeletal,False
+Z00.00,Encounter for general adult medical examination,Preventive,False
+J06.9,"Acute upper respiratory infection, unspecified",Infectious,False
+N18.3,"Chronic kidney disease, stage 3",Genitourinary,True
+F32.9,"Major depressive disorder, single episode",Mental Health,True
+K21.9,Gastro-esophageal reflux disease without esophagitis,Digestive,False

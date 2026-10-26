@@ -1,0 +1,29 @@
+pipeline:
+  name: "healthcare-claims-medallion-pipeline"
+  environment: "local"  # local or databricks
+  version: "1.0.0"
+
+paths:
+  raw_landing: "data/raw"
+  bronze_layer: "data/bronze"
+  silver_layer: "data/silver"
+  gold_layer: "data/gold"
+  checkpoint_dir: "data/checkpoints"
+
+security:
+  # In Azure Databricks, replace with dbutils.secrets.get("healthcare-vault", "phi-salt")
+  phi_salt: "HEALTHCARE_PHI_SALT"
+  hash_algorithm: "sha256"
+
+data_quality:
+  enforce_icd10_regex: "^[A-Z][0-9][0-9A-Z](\\.[0-9A-Z]{1,4})?$"
+  allow_future_dates: false
+  min_claim_amount: 0.0
+  max_claim_amount: 1000000.0
+
+performance:
+  shuffle_partitions: 4  # Set low for local execution; increase for Databricks cluster
+  zorder_columns:
+    claims:
+      - "patient_key"
+      - "service_date"
